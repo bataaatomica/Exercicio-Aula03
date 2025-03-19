@@ -8,7 +8,8 @@ public class CalculoIdade {
         System.out.println("Digite seu ano de nascimento: ");
         int anoNascimento = scanner.nextInt();
 
-        int anoAtual = 2025;
+        System.out.println("Digite o ano atual: ");
+        int anoAtual = scanner.nextInt();
         int idadeAnos = anoAtual - anoNascimento;
 
         int idadeMeses = idadeAnos * 12;
